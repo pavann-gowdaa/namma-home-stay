@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Location Pin -->
+    <path
+        android:fillColor="@color/brand_green"
+        android:pathData="M54,4C34,4 18,20 18,40c0,20 36,64 36,64s36,-44 36,-64c0,-20 -16,-36 -36,-36z"/>
+
+    <!-- Pin Interior -->
+    <path
+        android:fillColor="@color/brand_cream"
+        android:pathData="M54,20a20,20 0 1,0 0,40a20,20 0 1,0 0,-40z"/>
+
+    <!-- House Base -->
+    <path
+        android:fillColor="@color/brand_white"
+        android:pathData="M40,50h28v20h-28z"/>
+
+    <!-- Roof -->
+    <path
+        android:fillColor="@color/brand_brown"
+        android:pathData="M40,50l14,-12l14,12z"/>
+
+    <!-- Palm Tree -->
+    <path
+        android:strokeColor="@color/brand_green"
+        android:strokeWidth="2"
+        android:pathData="M70,45c-5,-5 -10,-5 -15,0"/>
+    <path
+        android:strokeColor="@color/brand_green"
+        android:strokeWidth="2"
+        android:pathData="M70,45c5,-5 10,-5 15,0"/>
+</vector>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma HomeStay</string>
+    <string name="app_subtitle">Experience Rural Karnataka</string>
+
+    <!-- Auth -->
+    <string name="welcome_title">Welcome to\nNamma HomeStay</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="select_role">Choose Your Role</string>
+    <string name="guest_role">I\'m a Traveler</string>
+    <string name="host_role">I\'m a Host</string>
+    <string name="guest_desc">Find and book unique homestays across Karnataka</string>
+    <string name="host_desc">List your property and connect with travelers</string>
+
+    <!-- Guest -->
+    <string name="explore_homestays">Explore HomeStays</string>
+    <string name="no_homestays">No homestays found\nPull down to refresh</string>
+    <string name="send_inquiry">Send Inquiry</string>
+    <string name="view_maps">View on Maps</string>
+    <string name="todays_menu">Today\'s Menu</string>
+    <string name="nearby_places">Nearby Places</string>
+
+    <!-- Host -->
+    <string name="my_listings">My Listings</string>
+    <string name="add_homestay">Add HomeStay</string>
+    <string name="edit_homestay">Edit HomeStay</string>
+    <string name="no_listings">No listings yet\nTap + to add your first HomeStay</string>
+    <string name="guest_inquiries">Guest Inquiries</string>
+    <string name="no_inquiries">No inquiries yet</string>
+    <string name="daily_menu">Daily Menu</string>
+    <string name="add_place">Add Nearby Place</string>
+    <string name="ai_generate">Generate with AI</string>
+
+    <!-- Admin -->
+    <string name="admin_panel">Admin Panel</string>
+    <string name="no_listings_admin">No listings found</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_inquiries">Inquiries</string>
+    <string name="nav_menu">Menu</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_admin">Admin</string>
+    <string name="nav_logout">Logout</string>
+
+    <!-- Errors -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_invalid_phone">Please enter a valid phone number</string>
+    <string name="error_invalid_otp">Please enter a valid 6-digit OTP</string>
+</resources>

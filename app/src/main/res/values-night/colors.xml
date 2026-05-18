@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4D5933</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="primary_light">#81C784</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="secondary">#FFB74D</color>
+    <color name="secondary_light">#FF6F00</color>
+    <color name="on_secondary">#000000</color>
+    <color name="background">#121212</color>
+    <color name="surface">#1E1E1E</color>
+    <color name="text_primary">#E1E1E1</color>
+    <color name="text_secondary">#9E9E9E</color>
+    <color name="available_green">#66BB6A</color>
+    <color name="booked_red">#EF5350</color>
+    <color name="delete_red">#F44336</color>
+    <color name="whatsapp_green">#25D366</color>
+    <color name="selected_card">#1B5E2033</color>
+    <color name="default_card">#2D2D2D</color>
+    <color name="shimmer_color">#333333</color>
+    <color name="bottom_nav_unselected">#757575</color>
+</resources>

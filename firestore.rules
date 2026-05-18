@@ -1,0 +1,51 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAuth() {
+      return request.auth != null;
+    }
+
+    function isRole(role) {
+      return isAuth() &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == role;
+    }
+
+    match /users/{userId} {
+      allow create: if isAuth() && request.auth.uid == userId;
+      allow read, update: if isAuth() && request.auth.uid == userId;
+      allow delete: if isRole('admin');
+    }
+
+    match /homestays/{id} {
+      allow read: if true;
+      allow create: if isAuth() && request.resource.data.hostId == request.auth.uid;
+      allow update: if isAuth() && (
+        resource.data.hostId == request.auth.uid ||
+        isRole('admin')
+      );
+      allow delete: if isAuth() && isRole('admin');
+    }
+
+    match /inquiries/{id} {
+      allow read: if isAuth() && (
+        resource.data.guestId == request.auth.uid ||
+        resource.data.hostId == request.auth.uid
+      );
+      allow create: if isAuth();
+      allow update, delete: if false;
+    }
+
+    match /daily_menu/{id} {
+      allow read: if true;
+      allow create, update: if isAuth();
+      allow delete: if isRole('admin');
+    }
+
+    match /guide_places/{id} {
+      allow read: if true;
+      allow create: if isAuth();
+      allow update, delete: if isRole('admin');
+    }
+  }
+}

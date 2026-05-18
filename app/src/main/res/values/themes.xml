@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NammaHomeStay" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/brand_green</item>
+        <item name="colorPrimaryDark">@color/brand_green</item>
+        <item name="colorPrimaryVariant">@color/brand_green</item>
+        <item name="colorOnPrimary">@color/brand_white</item>
+        <item name="colorSecondary">@color/brand_brown</item>
+        <item name="colorSecondaryVariant">@color/brand_brown</item>
+        <item name="colorOnSecondary">@color/brand_white</item>
+        <item name="android:colorBackground">@color/brand_cream</item>
+        <item name="colorSurface">@color/brand_white</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/brand_green</item>
+        <item name="android:navigationBarColor">@color/brand_cream</item>
+        <item name="materialButtonStyle">@style/Widget.Material3.Button</item>
+    </style>
+
+    <style name="Theme.NammaHomeStay.Splash" parent="Theme.NammaHomeStay">
+        <item name="android:windowBackground">@color/brand_cream</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+</resources>
